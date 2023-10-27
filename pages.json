@@ -1,0 +1,138 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	    ,{
+            "path" : "pages/menu/menu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "菜单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopping/shopping",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myself/myself",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/productDetail/productDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/productDetail/productDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": 
+	{
+		"position": "bottom",
+		"backgroundColor": "rgb(227,228,229)",
+		"selectedColor": "blue",
+		"color": "black",
+		"list": 
+		[
+			{	
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"text": "首页",
+				"selectedIconPath": "static/home_active.png"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"iconPath": "static/menu.png",
+				"text": "菜单",
+				"selectedIconPath": "static/menu_active.png"
+				 
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "购物袋",
+				"iconPath": "static/shopbag.png",
+				"selectedIconPath": "static/shopbag_active.png"
+			},
+			{
+				"pagePath": "pages/myself/myself",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_active.png"
+			}
+		]
+		
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"transparentTitle": "always"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	 }
+}
